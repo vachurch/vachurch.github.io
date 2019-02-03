@@ -1,0 +1,23 @@
+#index-header {
+    background-color: forestgreen;
+    background-image: url('/img/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-family: stencil-w01-bold,fantasy;
+}
+#index-header .col-md {
+    padding-bottom: 2rem;
+}
+@media (max-width: 768px) {
+    #index-header {
+        background-size: auto 100%;
+    }
+}
